@@ -1318,18 +1318,18 @@ a.icon:focus {
     display: inline-block;
 }
 
-.username-data:hover+svg,
-.username-data:hover {
+.username-data:focus+svg,
+.username-data:focus {
     fill: #2196f3;
 }
 
-.username-phone-data:hover+svg,
-.username-phone-data:hover {
+.username-phone-data:focus+svg,
+.username-phone-data:focus {
     fill: #2196f3;
 }
 
-.username-email-data:hover+svg,
-.username-email-data:hover {
+.username-email-data:focus+svg,
+.username-email-data:focus {
     fill: #2196f3;
 }
 
@@ -1344,7 +1344,7 @@ a.icon:focus {
     resize: none;
 }
 
-.modal-form-one textarea:hover,
+
 .modal-form-one textarea:focus {
 
     border: 1px solid #2196F3;
@@ -1383,8 +1383,8 @@ a.icon:focus {
 
 input[type="checkbox"]:checked + .not-cecked-icon {
     opacity: 1;
-    background-color: #2196F3;
     fill: #fff;
+    
 }
 
 input[type="checkbox"] {
@@ -1418,8 +1418,13 @@ input[type="checkbox"]:checked::before {
 
     background-color: #2196F3;
 }
-
-
+  
+ svg.not-cecked-icon:focus {
+    background-color: #2196F3;
+    fill: #fff;
+    
+    
+ } 
 
 
 em {
